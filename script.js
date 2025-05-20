@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const campos = document.querySelectorAll("input, button");
 
   campos.forEach((el) => {
-    // Hover
     el.addEventListener("mouseenter", () => {
       el.style.backgroundColor = "#e0f7fa";
     });
@@ -11,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
       el.style.backgroundColor = "";
     });
 
-    // Foco (incluindo botão!)
     el.addEventListener("focus", () => {
       el.style.outline = "2px solid #4CAF50";
       el.style.boxShadow = "0 0 8px #4CAF50";
@@ -23,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Geração de JSON
   const botao = document.querySelector("button");
   botao.addEventListener("click", () => {
     const nomeCampo = document.getElementById("campo").value;
