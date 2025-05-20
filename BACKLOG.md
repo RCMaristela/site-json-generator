@@ -9,3 +9,15 @@
 - Formulário com campos nomeados corretamente
 - Deve funcionar visualmente, mesmo sem JS ainda
 docs: adicionar backlog da sprint 3
+
+## Sprint 4 – Estilização com CSS
+
+### Tarefas:
+- Criar o arquivo style.css
+- Aplicar estilos ao formulário, inputs, botão e página
+- Conectar o CSS ao HTML
+
+### Critérios de aceitação:
+- Página deve estar visualmente agradável e organizada
+
+docs: adicionar backlog da sprint 4
