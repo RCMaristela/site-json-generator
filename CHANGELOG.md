@@ -15,3 +15,7 @@ docs: atualizar changelog para versão v1.2.0
 - Arquivo script.js com eventos de hover
 - Conexão do JS com o HTML
 docs: atualizar changelog para versão v1.3.0
+## [v1.4.0] - Borda luminosa em campos selecionados
+
+### Adicionado
+- Efeito visual com JS para inputs ao receberem foco
