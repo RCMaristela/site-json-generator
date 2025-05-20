@@ -19,3 +19,7 @@ docs: atualizar changelog para versão v1.3.0
 
 ### Adicionado
 - Efeito visual com JS para inputs ao receberem foco
+## [v1.5.0] - Geração de JSON a partir do formulário
+
+### Adicionado
+- Função para montar e exibir JSON baseado nos inputs do formulário
