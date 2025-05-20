@@ -8,3 +8,10 @@
 - Arquivo style.css com design estruturado
 - Integração do CSS no HTML
 docs: atualizar changelog para versão v1.2.0
+
+## [v1.3.0] - Interação com mouse (hover)
+
+### Adicionado
+- Arquivo script.js com eventos de hover
+- Conexão do JS com o HTML
+docs: atualizar changelog para versão v1.3.0
