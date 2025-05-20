@@ -34,3 +34,16 @@ docs: adicionar backlog da sprint 4
 - Código separado do HTML
 
 docs: adicionar backlog da sprint 5
+
+## Sprint 6 – Borda luminosa em campos focados
+
+### Tarefas:
+- Detectar quando um input é selecionado (focus)
+- Adicionar borda luminosa com JS
+- Remover a borda ao sair do campo (blur)
+
+### Critérios de aceitação:
+- Inputs destacam visualmente quando estão em foco
+- Visual limpo e funcional
+docs: adicionar backlog da sprint 6
+
