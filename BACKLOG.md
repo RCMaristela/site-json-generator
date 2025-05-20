@@ -47,3 +47,14 @@ docs: adicionar backlog da sprint 5
 - Visual limpo e funcional
 docs: adicionar backlog da sprint 6
 
+## Sprint 7 – Gerar JSON com os dados do formulário
+
+### Tarefas:
+- Capturar valores digitados nos campos
+- Criar uma estrutura `[ chave: valor ]`
+- Exibir o JSON gerado na tela
+
+### Critérios de aceitação:
+- Ao clicar no botão, o JSON aparece corretamentedocs: adicionar backlog da sprint 7
+
+
