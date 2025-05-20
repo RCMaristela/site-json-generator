@@ -1,8 +1,7 @@
-// Espera o DOM carregar
 document.addEventListener("DOMContentLoaded", () => {
   const campos = document.querySelectorAll("input, button");
 
-  // Hover: mudar cor ao passar o mouse
+  // Hover: muda cor ao passar o mouse
   campos.forEach((el) => {
     el.addEventListener("mouseenter", () => {
       el.style.backgroundColor = "#e0f7fa";
@@ -12,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       el.style.backgroundColor = "";
     });
 
-    // Foco: borda luminosa ao clicar no campo
+    // Foco: borda luminosa
     if (el.tagName === "INPUT") {
       el.addEventListener("focus", () => {
         el.style.outline = "2px solid #4CAF50";
@@ -25,7 +24,17 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   });
+
+  // Gerar JSON
+  const botao = document.querySelector("button");
+  botao.addEventListener("click", () => {
+    const nomeCampo = document.getElementById("campo").value;
+    const valorCampo = document.getElementById("valor").value;
+
+    const resultado = `[ ${nomeCampo}: ${valorCampo} ]`;
+
+    document.getElementById("jsonOutput").textContent = resultado;
+  });
 });
 
-feat: adicionar borda luminosa ao focar nos campos
-
+feat: gerar JSON simples com os dados do formulário
