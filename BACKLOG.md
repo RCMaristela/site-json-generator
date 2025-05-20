@@ -21,3 +21,16 @@ docs: adicionar backlog da sprint 3
 - Página deve estar visualmente agradável e organizada
 
 docs: adicionar backlog da sprint 4
+
+## Sprint 5 – JS de hover em inputs e botões
+
+### Tarefas:
+- Criar arquivo script.js
+- Adicionar eventos de mouse para inputs e botões
+- Integrar script ao HTML
+
+### Critérios de aceitação:
+- Elementos mudam de cor ao passar o mouse
+- Código separado do HTML
+
+docs: adicionar backlog da sprint 5
